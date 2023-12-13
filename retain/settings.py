@@ -26,12 +26,12 @@ load_dotenv()
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-q@gju2@o2ts7)(pga3(s87rnrfyw!!wul7tzj@)@bts%v6=f54"
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost", "https://retain-app-f3e2e8377fc9.herokuapp.com/"]
 
 
 # Application definition
