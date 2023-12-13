@@ -1,0 +1,16 @@
+{
+    "headers":[
+        {"code":"emp_id","name":"Employee Id","is_mandatary":1,"type":"str"},
+        {"code":"employee_name","name":"Employee Name","is_mandatary":1,"type":"str"},
+        {"code":"email","name":"Email","is_mandatary":1,"type":"str"},
+        {"code":"mobile","name":"Mobile Number","is_mandatary":1,"type":"str"},
+        {"code":"date_of_joining","name":"Joining Date","is_mandatary":1,"type":"str"},
+        {"code":"date_of_leaving","name":"Leaving Date","is_mandatary":0,"type":"str"},
+        {"code":"reports_to","name":"Manager Id","is_mandatary":1,"type":"int"},
+        {"code":"dept_id","name":"Department Id","is_mandatary":1,"type":"int"},
+        {"code":"experience","name":"Experience","is_mandatary":0,"type":"int"},
+        {"code":"salary","name":"Salary(Rupee)","is_mandatary":0,"type":"int"},
+        {"code":"position","name":"Designation","is_mandatary":0,"type":"str"},
+        {"code":"is_manager","name":"Has Team?","is_mandatary":0,"type":"bool"}
+    ]
+}
